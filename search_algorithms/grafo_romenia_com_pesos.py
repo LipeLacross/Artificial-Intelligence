@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 import networkx as nx
 
-
 class RomeniaPonderado:
     def __init__(self):
         # Criar um grafo
@@ -54,4 +53,11 @@ class RomeniaPonderado:
         nx.draw_networkx_edge_labels(self.G, pos, edge_labels=edge_labels)
 
         plt.title("Mapa de Cidades da Romênia com Distâncias")
-        plt.show()
+        plt.show()  # Certifique-se de que plt.show() está sendo chamado
+
+# Testando a classe
+if __name__ == "__main__":
+    romania = RomeniaPonderado()
+    romania.imprimir()
+    romania.plotar()
+3

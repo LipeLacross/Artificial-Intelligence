@@ -1,0 +1,6 @@
+Comparacao de Algoritmos para Classificacao do Iris Dataset
+
+KNN: Acuracia = 100.00%
+C4.5 (Decision Tree): Acuracia = 100.00%
+SVM: Acuracia = 100.00%
+MLP: Acuracia = 97.78%
